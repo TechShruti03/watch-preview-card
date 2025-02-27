@@ -14,5 +14,12 @@
         <img src="img/img3.jpg" class="product-image" onclick="changeImage('img/img3.jpg')"/>
         <img src="img/img4.jpg" class="product-image" onclick="changeImage('img/img4.jpg')"/>    
     </div>
+    <script>
+        function changeImage(imageName) {
+            const mainImage = document.getElementById('main-product-image');
+
+          mainImage.src = imageName;
+        }
+    </script>
 </body>
 </html>
